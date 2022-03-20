@@ -11,7 +11,7 @@
 
 with source_data as (
 
-    select * FROM {{ source(GOOGLE_SHEETS.COVID_19_INDONESIA_KUNAL_KUYABA) }}
+    select * FROM GOOGLE_SHEETS.COVID_19_INDONESIA_KUNAL_KUYABA
 
 )
 
